@@ -1,0 +1,16 @@
+#app {
+  display: grid;
+  grid:
+    [row1-start] 'nav' 45px [row1-end]
+    [row2-start] 'main' 1fr [row2-end]
+    / auto;
+  height: 100%;
+}
+
+nav {
+  grid-area: nav;
+}
+
+main {
+  grid-area: main;
+}
